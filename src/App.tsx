@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Form_Page from './Components/Form_Page/Form_Page';
 
 function App() {
   return (
-    <div className="App">
-     <h1>Aman</h1>
-    </div>
+<>
+<Form_Page/>
+</>
   );
 }
 
